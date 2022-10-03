@@ -6,17 +6,17 @@
 
 #2-1# Ajout du cronjob par ligne de code
 	# crontab -e
-	# Ajouter le code suivant dans le cronjob, enregistrer puis fermer */1 * * 1,2,9,10,11,12 * ~/exam_MASCHEIX/exam.sh 
+	# Ajouter le code suivant dans le cronjob, enregistrer puis fermer */1 * * 1,2,9,10,11,12 * ~/exam_MASCHEIX/main.sh 
 
 #2-2# Ajout du cronjob via le fichier cron.txt
 	# crontab cron.txt
 
 #3# Sauvegarde du crontab dans le cron.txt
-	# crontab -l > ~/exam_MASCHEIX/cron.txt
+	# crontab -l > ~/train_DST_linux_bash/cron.txt
 	
 
-#4# Compression du dossier d'exam
-	# tar -cvf exam_MASCHEIX.tar exam_MASCHEIX
+#4# Compression du dossier
+	# tar -cvf train_DST_linux_bash.tar train_DST_linux_bash
 	
 #5# Import de l'archive en local 
-	# scp -i "data_enginering_machine.pem" ubuntu@34.245.65.198:~/exam_MASCHEIX.tar .
+	# scp -i "data_enginering_machine.pem" ubuntu@34.245.65.198:~/train_DST_linux_bash.tar .
