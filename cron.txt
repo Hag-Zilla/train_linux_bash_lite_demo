@@ -43,4 +43,4 @@
 ##
 ##
 
-*/1 * * 1,2,9,10,11,12 * ~/exam_MASCHEIX/exam.sh
+*/1 * * 1,2,9,10,11,12 * ~/exam_MASCHEIX/main.sh
